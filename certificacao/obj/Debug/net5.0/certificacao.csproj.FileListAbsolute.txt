@@ -1,0 +1,16 @@
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.exe
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.deps.json
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.runtimeconfig.json
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.runtimeconfig.dev.json
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.dll
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\ref\certificacao.dll
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\bin\Debug\net5.0\certificacao.pdb
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.dll
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\ref\certificacao.dll
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.pdb
+C:\Users\Administrador\Documents\Projetos\csharp-criacao-de-tipos\certificacao\obj\Debug\net5.0\certificacao.genruntimeconfig.cache
