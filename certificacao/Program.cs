@@ -11,7 +11,8 @@ namespace certificacao
     {
         static void Main(string[] args)
         {
-            Executar();
+            //Executar();
+            ExecutarInteiros();
         }
     }
 }
