@@ -9,7 +9,7 @@ namespace certificacao
     partial class Program 
     {
 
-        static void Executar() 
+        static void ExecutarTiposDeValor() 
         {
             int idade = 30;
 
