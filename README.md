@@ -5,8 +5,10 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 
 >### **Tópicos Abordados**:
 >> - `Tipos de Valor;`
->> - `Tipo Integral;`
->> - `Tipo Flutuante;`
+>> - `Tipos Inteiros;`
+>> - `´Ponto Flutuante;`
+>> - `´Decimal;`
+>> - `Booleano;`
 
 
 
