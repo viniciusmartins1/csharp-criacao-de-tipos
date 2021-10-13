@@ -19,6 +19,7 @@ namespace certificacao
             Console.WriteLine("2 - Tipos Inteiros");
             Console.WriteLine("3 - Ponto Flutuantes");
             Console.WriteLine("4 - Decimal");
+            Console.WriteLine("5 - Booleano");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -34,6 +35,9 @@ namespace certificacao
                     break;
                 case "4":
                     ExecutarDecimal();
+                    break;
+                case "5":
+                    ExecutarBooleano();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
