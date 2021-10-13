@@ -16,8 +16,9 @@ namespace certificacao
             Console.WriteLine("=--=-=-=-=-=-=-=-=-=-=-=-=-=- ");
             Console.WriteLine();
             Console.WriteLine("1 - Tipos de Valor");
-            Console.WriteLine("2 - Tipos Integrais");
-            Console.WriteLine("3 - Tipos Flutuantes");
+            Console.WriteLine("2 - Tipos Inteiros");
+            Console.WriteLine("3 - Ponto Flutuantes");
+            Console.WriteLine("4 - Decimal");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -30,6 +31,9 @@ namespace certificacao
                     break;
                 case "3":
                     ExecutarPontoFlutuante();
+                    break;
+                case "4":
+                    ExecutarDecimal();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
