@@ -14,7 +14,6 @@ namespace certificacao
         {
             //bool possuiSaldo = 1;
 
-
             bool possuiSaldo = true;
             Console.WriteLine("possuiSaldo: {0}", possuiSaldo);
 

@@ -20,6 +20,7 @@ namespace certificacao
             Console.WriteLine("3 - Ponto Flutuantes");
             Console.WriteLine("4 - Decimal");
             Console.WriteLine("5 - Booleano");
+            Console.WriteLine("6 - Structs");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -38,6 +39,9 @@ namespace certificacao
                     break;
                 case "5":
                     ExecutarBooleano();
+                    break;
+                case "6":
+                    ExecutarStructs();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
