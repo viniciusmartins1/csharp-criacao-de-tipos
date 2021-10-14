@@ -21,6 +21,7 @@ namespace certificacao
             Console.WriteLine("4 - Decimal");
             Console.WriteLine("5 - Booleano");
             Console.WriteLine("6 - Structs");
+            Console.WriteLine("7 - Enum");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -42,6 +43,9 @@ namespace certificacao
                     break;
                 case "6":
                     ExecutarStructs();
+                    break;
+                case "7":
+                    ExecutarEnum();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
