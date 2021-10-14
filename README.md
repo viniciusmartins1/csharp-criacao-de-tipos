@@ -4,11 +4,13 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 <br/><br/><br/>
 
 >### **Tópicos Abordados**:
->> - `Tipos de Valor;`
->> - `Tipos Inteiros;`
+>> - `´Tipos de Valor;`
+>> - `´Tipos Inteiros;`
 >> - `´Ponto Flutuante;`
 >> - `´Decimal;`
->> - `Booleano;`
+>> - `´Booleano;`
+>> - `´Structs;`
+>> - `´Enums;`
 
 
 
