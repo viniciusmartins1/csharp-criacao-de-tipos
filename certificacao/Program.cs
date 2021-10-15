@@ -22,6 +22,7 @@ namespace certificacao
             Console.WriteLine("5 - Booleano");
             Console.WriteLine("6 - Structs");
             Console.WriteLine("7 - Enum");
+            Console.WriteLine("8 - Tipos de Referencia");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -46,6 +47,9 @@ namespace certificacao
                     break;
                 case "7":
                     ExecutarEnum();
+                    break;
+                case "8":
+                    ExecutarTiposDeReferencia();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
