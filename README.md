@@ -13,5 +13,7 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 >> - `Enums;`
 >### **Tipos de Referência**
 >> - `Tipos de Referencia;`
+>> - `Classes;`
+>> - `Interfaces;`
 
 
