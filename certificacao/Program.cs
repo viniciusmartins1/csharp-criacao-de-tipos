@@ -25,6 +25,7 @@ namespace certificacao
             Console.WriteLine("8 - Tipos de Referencia");
             Console.WriteLine("9 - Classes");
             Console.WriteLine("10 - Interfaces");
+            Console.WriteLine("11 - Delegate");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -57,6 +58,9 @@ namespace certificacao
                     ExecutarClasses();
                     break;
                 case "10":
+                    ExecutarInterfaces();
+                    break;
+                case "11":
                     ExecutarInterfaces();
                     break;
                 default:
