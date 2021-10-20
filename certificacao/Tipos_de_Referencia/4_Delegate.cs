@@ -15,6 +15,8 @@ namespace certificacao
         }
     }
 
+    delegate double MetodoMultiplicacao(double input);
+
     class Calculadora
     {
         static double Duplicar(double input)
@@ -35,6 +37,30 @@ namespace certificacao
 
             //Executa diretamente o método
             Console.WriteLine($"Triplicar(7.5): {Triplicar(7.5)}");
+
+            MetodoMultiplicacao metodoMultiplicacao = Duplicar;
+            Console.WriteLine(metodoMultiplicacao(7.5));
+
+
+            metodoMultiplicacao = Triplicar;
+            Console.WriteLine($"Triplicar(7.5): {metodoMultiplicacao(7.5)}");
+
+            //instancia um delegado com um metodo anônimo
+            MetodoMultiplicacao metroQuadrado = delegate (double input)
+            {
+                return input * input;
+            };
+
+
+            double quadrado = metroQuadrado(5);
+            Console.WriteLine("quadrado: {0}", quadrado);
+
+            //instacia um delegado com uma expressão lambda
+            MetodoMultiplicacao metodoCubo = input => input * input * input;
+
+            double cubo = metodoCubo(4.375);
+
+            Console.WriteLine("Cubo: {0}", cubo);
         }
     }
 }

@@ -61,7 +61,7 @@ namespace certificacao
                     ExecutarInterfaces();
                     break;
                 case "11":
-                    ExecutarInterfaces();
+                    ExecutarDelegate();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
