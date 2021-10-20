@@ -15,5 +15,7 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 >> - `Tipos de Referencia;`
 >> - `Classes;`
 >> - `Interfaces;`
+>> - `Delegate;`
+>> - `Object;`
 
 
