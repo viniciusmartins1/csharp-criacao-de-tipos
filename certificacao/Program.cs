@@ -26,6 +26,7 @@ namespace certificacao
             Console.WriteLine("9 - Classes");
             Console.WriteLine("10 - Interfaces");
             Console.WriteLine("11 - Delegate");
+            Console.WriteLine("12 - Object");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -62,6 +63,9 @@ namespace certificacao
                     break;
                 case "11":
                     ExecutarDelegate();
+                    break;
+                case "12":
+                    ExecutarObject();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
