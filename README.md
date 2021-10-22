@@ -17,5 +17,8 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 >> - `Interfaces;`
 >> - `Delegate;`
 >> - `Object;`
+>> - `Dynamic;`
+>> - `String;`
+
 
 
