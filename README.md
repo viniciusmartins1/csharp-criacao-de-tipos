@@ -20,7 +20,9 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 >> - `Dynamic;`
 >> - `String;`
 >### **Métodos**
->> - `Argumentos Nomeados;`
+>> - `Parâmetros Nomeados;`
+>> - `Parâmetros Opcionais;`
+>> - `Métodos de Extensão;`
 
 
 
