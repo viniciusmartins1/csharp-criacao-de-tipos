@@ -30,7 +30,8 @@ namespace certificacao
             Console.WriteLine("13 - Dynamic");
             Console.WriteLine("14 - String");
             Console.WriteLine("15 - Metodos");
-            Console.WriteLine("16 - Argumentos Nomeados");
+            Console.WriteLine("16 - Parâmetros Nomeados");
+            Console.WriteLine("17 - Parâmetros Opcionais");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -82,6 +83,9 @@ namespace certificacao
                     break;
                 case "16":
                     ExecutarParametrosNomeados();
+                    break;
+                case "17":
+                    ExecutarParametrosOpicionais();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
