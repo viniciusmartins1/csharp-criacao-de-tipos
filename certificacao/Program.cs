@@ -29,6 +29,7 @@ namespace certificacao
             Console.WriteLine("12 - Object");
             Console.WriteLine("13 - Dynamic");
             Console.WriteLine("14 - String");
+            Console.WriteLine("15 - Metodos");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -74,6 +75,9 @@ namespace certificacao
                     break;
                 case "14":
                     ExecutarString();
+                    break;
+                case "15":
+                    ExecutarMetodos();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
