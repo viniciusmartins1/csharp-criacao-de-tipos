@@ -39,7 +39,7 @@ namespace certificacao
 
         public new void Andar()
         {
-           Console.WriteLine("Animal.Andar"); 
+           Console.WriteLine("Animal.Andar");  
         }
     }
 
