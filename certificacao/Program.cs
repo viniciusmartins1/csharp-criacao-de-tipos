@@ -35,6 +35,7 @@ namespace certificacao
             Console.WriteLine("18 - Métodos de Extensão");
             Console.WriteLine("19 - Propriedades Indexadas");
             Console.WriteLine("20 - Sobrecargas");
+            Console.WriteLine("21 - Métodos Substituidos");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -98,6 +99,9 @@ namespace certificacao
                     break;
                 case "20":
                     ExecutarMetodosSobrecarregados();
+                    break;
+                case "21":
+                    ExecutarMetodosSubstituidos();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
