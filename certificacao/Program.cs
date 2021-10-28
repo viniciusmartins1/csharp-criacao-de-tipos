@@ -33,6 +33,7 @@ namespace certificacao
             Console.WriteLine("16 - Parâmetros Nomeados");
             Console.WriteLine("17 - Parâmetros Opcionais");
             Console.WriteLine("18 - Métodos de Extensão");
+            Console.WriteLine("19 - Propriedades Indexadas");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -90,6 +91,9 @@ namespace certificacao
                     break;
                 case "18":
                     ExecutarMetodosDeExtensao();
+                    break;
+                case "19":
+                    ExecutarPropriedadesIndexadas();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
