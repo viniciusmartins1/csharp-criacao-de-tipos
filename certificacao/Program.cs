@@ -34,6 +34,7 @@ namespace certificacao
             Console.WriteLine("17 - Parâmetros Opcionais");
             Console.WriteLine("18 - Métodos de Extensão");
             Console.WriteLine("19 - Propriedades Indexadas");
+            Console.WriteLine("20 - Sobrecargas");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -94,6 +95,9 @@ namespace certificacao
                     break;
                 case "19":
                     ExecutarPropriedadesIndexadas();
+                    break;
+                case "20":
+                    ExecutarMetodosSobrecarregados();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
