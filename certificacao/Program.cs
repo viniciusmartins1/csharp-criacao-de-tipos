@@ -36,6 +36,8 @@ namespace certificacao
             Console.WriteLine("19 - Propriedades Indexadas");
             Console.WriteLine("20 - Sobrecargas");
             Console.WriteLine("21 - Métodos Substituidos");
+            Console.WriteLine("22 - Boxing");
+            Console.WriteLine("23 - Unboxing");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -102,6 +104,12 @@ namespace certificacao
                     break;
                 case "21":
                     ExecutarMetodosSubstituidos();
+                    break;
+                case "22":
+                    ExecutarBoxing();
+                    break;
+                case "23":
+                    ExecutarUnboxing();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
