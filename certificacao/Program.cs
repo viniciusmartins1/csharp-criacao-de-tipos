@@ -38,6 +38,7 @@ namespace certificacao
             Console.WriteLine("21 - Métodos Substituidos");
             Console.WriteLine("22 - Boxing");
             Console.WriteLine("23 - Unboxing");
+            Console.WriteLine("24 - Conversão Implícita");
             var resultado = Console.ReadLine();
 
             switch (resultado)
@@ -110,6 +111,9 @@ namespace certificacao
                     break;
                 case "23":
                     ExecutarUnboxing();
+                    break;
+                case "24":
+                    ExecutarConversaoImplicita();
                     break;
                 default:
                     Console.WriteLine("Digite uma opção válida");
