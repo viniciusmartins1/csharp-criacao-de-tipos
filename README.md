@@ -25,6 +25,8 @@ Repositório para exercitar o conteúdo do curso de Criação de Tipos em C# do 
 >> - `Métodos de Extensão;`
 >> - `Sobrecargas;`
 >> - `Override;`
-
+>### **Consumir Tipos**
+>> - `Boxing e Unboxing;`
+>> - `Conversões Implícitas;`
 
 
